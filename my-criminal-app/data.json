@@ -1,0 +1,70 @@
+[{
+        "name": "Jane Smith",
+        "photo": "url_to_photo",
+        "age": 28,
+        "crime": "Fraud",
+        "otherDetails": "Caught using fake credit cards"
+    },
+    {
+        "name": "Mike Johnson",
+        "photo": "url_to_photo",
+        "age": 35,
+        "crime": "Burglary",
+        "otherDetails": "Stole jewelry from a local store"
+    },
+    {
+        "name": "Sarah Lee",
+        "photo": "url_to_photo",
+        "age": 24,
+        "crime": "Shoplifting",
+        "otherDetails": "Caught stealing clothes from a mall"
+    },
+    {
+        "name": "David Brown",
+        "photo": "url_to_photo",
+        "age": 42,
+        "crime": "Assault",
+        "otherDetails": "Involved in a street fight"
+    },
+    {
+        "name": "Emily Davis",
+        "photo": "url_to_photo",
+        "age": 31,
+        "crime": "Vandalism",
+        "otherDetails": "Spray-painted graffiti on a public building"
+    },
+    {
+        "name": "Robert Wilson",
+        "photo": "url_to_photo",
+        "age": 27,
+        "crime": "Drug possession",
+        "otherDetails": "Found with illegal substances"
+    },
+    {
+        "name": "Linda Martinez",
+        "photo": "url_to_photo",
+        "age": 36,
+        "crime": "Embezzlement",
+        "otherDetails": "Misappropriated company funds"
+    },
+    {
+        "name": "James Anderson",
+        "photo": "url_to_photo",
+        "age": 45,
+        "crime": "Arson",
+        "otherDetails": "Set fire to a warehouse"
+    },
+    {
+        "name": "Patricia Taylor",
+        "photo": "url_to_photo",
+        "age": 29,
+        "crime": "Forgery",
+        "otherDetails": "Created fake documents"
+    },
+    {
+        "name": "Christopher Moore",
+        "photo": "url_to_photo",
+        "age": 33,
+        "crime": "Kidnapping",
+        "otherDetails": "Held someone for ransom"
+    }]

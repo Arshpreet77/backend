@@ -1,20 +1,20 @@
-const { MongoClient } = require('mongodb');
+const express = require('express');
+const app = express();
+const port = 3000;
+require('./db') // ---> doesnt return anyhting but connects the db to backend
+const CRUD = require('./CRUD');
 
-// Connection URL and Database Name
-const url = 'mongodb://localhost:27017';
-const dbName = 'CriminalRecords';
+app.post('/criminals/load-data', async (req, res)=> {
+    const loadData = await CRUD.loadData();
+    res.json({"message": "Data Load Success!"});
+})
 
-async function main() {
-    const client = new MongoClient(url);
-    try {
-        await client.connect();
-        console.log("Connected successfully to server");
-        const db = client.db(dbName);
+app.get('/criminals/:name', async (req, res) => {
+    const name = req.params.name;
+    const criminal = await CRUD.findCriminalByName(name);
+    res.json(criminal);
+});
 
-        // Additional code to interact with the database goes here
-    } finally {
-        await client.close();
-    }
-}
-
-main().catch(console.error);
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});

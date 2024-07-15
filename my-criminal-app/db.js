@@ -1,24 +1,21 @@
-async function insertCriminal(db, criminal) {
-    const collection = db.collection('criminals');
-    const result = await collection.insertOne(criminal);
-    console.log(`A document was inserted with the _id: ${result.insertedId}`);
+// THIS FILE CONNECTS THEE DATABASE
+
+const { MongoClient } = require('mongodb');
+
+// Connection URL and Database Name
+const url = 'mongodb://localhost:27017';
+const dbName = 'CriminalRecords';
+const client = new MongoClient(url);
+
+async function main() {
+    try {
+        await client.connect(); // db sever start
+        console.log("Connected successfully to server");
+    } finally {
+        await client.close();
+    }
 }
 
-// Example usage:
-main().then(async (db) => {
-    const newCriminal = {
-        name: "John Doe",
-        photo: "url_to_photo",
-        age: 30,
-        crime: "Theft",
-        otherDetails: "More details here"
-    };
-    await insertCriminal(db, newCriminal);
-});
-
-async function findCriminalByName(db, name) {
-    const collection = db.collection('criminals');
-    const findResult = await collection.find({ name: name }).toArray();
-    console.log("Found documents =>", findResult);
-    return findResult;
-}
+main()
+  .then(console.log)
+  .catch(console.error);
