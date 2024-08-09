@@ -1,0 +1,242 @@
+[
+    {
+        "caseNumber": "123456",
+        "name": "Jane Smith",
+        "photo": "photos/jane_smith.jpg",
+        "age": "28",
+        "crime": "Fraud",
+        "category": "BOLO",
+        "otherDetails": "Caught using fake credit cards",
+        "officerUnit": "9874"
+    },
+    {
+        "caseNumber": "123457",
+        "name": "Kevin Turner",
+        "photo": "photos/kevin_turner.jpg",
+        "age": "22",
+        "crime": "Identity Theft",
+        "category": "BOLO",
+        "otherDetails": "Using stolen identities for online purchases",
+        "officerUnit": "9863"
+    },
+    {
+        "caseNumber": "123458",
+        "name": "Olivia White",
+        "photo": "photos/olivia_white.jpg",
+        "age": "30",
+        "crime": "Counterfeiting",
+        "category": "BOLO",
+        "otherDetails": "Producing fake currency",
+        "officerUnit": "9852"
+    },
+    {
+        "caseNumber": "123459",
+        "name": "William Johnson",
+        "photo": "photos/william_johnson.jpg",
+        "age": "40",
+        "crime": "Embezzlement",
+        "category": "BOLO",
+        "otherDetails": "Embezzled funds from his employer",
+        "officerUnit": "9841"
+    },
+    {
+        "caseNumber": "123460",
+        "name": "Sophia Brown",
+        "photo": "photos/sophia_brown.jpg",
+        "age": "25",
+        "crime": "Credit Card Fraud",
+        "category": "BOLO",
+        "otherDetails": "Using stolen credit cards",
+        "officerUnit": "9830"
+    },
+    {
+        "caseNumber": "123461",
+        "name": "Daniel Lee",
+        "photo": "photos/daniel_lee.jpg",
+        "age": "38",
+        "crime": "Wire Fraud",
+        "category": "BOLO",
+        "otherDetails": "Running a phishing scam",
+        "officerUnit": "9829"
+    },
+    {
+        "caseNumber": "123462",
+        "name": "Sarah Lee",
+        "photo": "photos/sarah_lee.jpg",
+        "age": "24",
+        "crime": "Shoplifting",
+        "category": "TRESPASS",
+        "otherDetails": "Caught stealing clothes from a mall",
+        "officerUnit": "9818"
+    },
+    {
+        "caseNumber": "123463",
+        "name": "Emily Davis",
+        "photo": "photos/emily_davis.jpg",
+        "age": "31",
+        "crime": "Vandalism",
+        "category": "TRESPASS",
+        "otherDetails": "Spray-painted graffiti on a public building",
+        "officerUnit": "9807"
+    },
+    {
+        "caseNumber": "123464",
+        "name": "Jack Miller",
+        "photo": "photos/jack_miller.jpg",
+        "age": "29",
+        "crime": "Breaking and Entering",
+        "category": "TRESPASS",
+        "otherDetails": "Trespassed into a private property",
+        "officerUnit": "9796"
+    },
+    {
+        "caseNumber": "123465",
+        "name": "Lisa Robinson",
+        "photo": "photos/lisa_robinson.jpg",
+        "age": "34",
+        "crime": "Trespassing",
+        "category": "TRESPASS",
+        "otherDetails": "Entered a restricted area without permission",
+        "officerUnit": "9785"
+    },
+    {
+        "caseNumber": "123466",
+        "name": "Brian Clark",
+        "photo": "photos/brian_clark.jpg",
+        "age": "37",
+        "crime": "Trespassing",
+        "category": "TRESPASS",
+        "otherDetails": "Trespassed on a construction site",
+        "officerUnit": "9774"
+    },
+    {
+        "caseNumber": "123467",
+        "name": "Megan Wright",
+        "photo": "photos/megan_wright.jpg",
+        "age": "28",
+        "crime": "Trespassing",
+        "category": "TRESPASS",
+        "otherDetails": "Entered a closed park after hours",
+        "officerUnit": "9763"
+    },
+    {
+        "caseNumber": "123468",
+        "name": "Mike Johnson",
+        "photo": "photos/mike_johnson.jpg",
+        "age": "35",
+        "crime": "Burglary",
+        "category": "WANTED",
+        "otherDetails": "Stole jewelry from a local store",
+        "officerUnit": "9752"
+    },
+    {
+        "caseNumber": "123469",
+        "name": "David Brown",
+        "photo": "photos/david_brown.jpg",
+        "age": "42",
+        "crime": "Assault",
+        "category": "WANTED",
+        "otherDetails": "Involved in a street fight",
+        "officerUnit": "9741"
+    },
+    {
+        "caseNumber": "123470",
+        "name": "Robert Wilson",
+        "photo": "photos/robert_wilson.jpg",
+        "age": "27",
+        "crime": "Drug possession",
+        "category": "WANTED",
+        "otherDetails": "Found with illegal substances",
+        "officerUnit": "9730"
+    },
+    {
+        "caseNumber": "123471",
+        "name": "James Anderson",
+        "photo": "photos/james_anderson.jpg",
+        "age": "45",
+        "crime": "Arson",
+        "category": "WANTED",
+        "otherDetails": "Set fire to a warehouse",
+        "officerUnit": "9729"
+    },
+    {
+        "caseNumber": "123472",
+        "name": "Christopher Moore",
+        "photo": "photos/christopher_moore.jpg",
+        "age": "33",
+        "crime": "Kidnapping",
+        "category": "WANTED",
+        "otherDetails": "Held someone for ransom",
+        "officerUnit": "9718"
+    },
+    {
+        "caseNumber": "123473",
+        "name": "Thomas Harris",
+        "photo": "photos/thomas_harris.jpg",
+        "age": "50",
+        "crime": "Armed Robbery",
+        "category": "WANTED",
+        "otherDetails": "Robbed a bank at gunpoint",
+        "officerUnit": "9707"
+    },
+    {
+        "caseNumber": "123474",
+        "name": "Linda Martinez",
+        "photo": "photos/linda_martinez.jpg",
+        "age": "36",
+        "crime": "Aggressive Behavior",
+        "category": "HISTORY",
+        "otherDetails": "Inappropriately touched someone",
+        "officerUnit": "9696"
+    },
+    {
+        "caseNumber": "123475",
+        "name": "Patricia Taylor",
+        "photo": "photos/patricia_taylor.jpg",
+        "age": "29",
+        "crime": "Aggressive Behavior",
+        "category": "HISTORY",
+        "otherDetails": "Threatened someone with a knife",
+        "officerUnit": "9685"
+    },
+    {
+        "caseNumber": "123476",
+        "name": "Henry Lewis",
+        "photo": "photos/henry_lewis.jpg",
+        "age": "41",
+        "crime": "Harassment",
+        "category": "HISTORY",
+        "otherDetails": "Repeatedly harassed a co-worker",
+        "officerUnit": "9674"
+    },
+    {
+        "caseNumber": "123477",
+        "name": "Nancy Walker",
+        "photo": "photos/nancy_walker.jpg",
+        "age": "32",
+        "crime": "Disturbing the Peace",
+        "category": "HISTORY",
+        "otherDetails": "Caused a public disturbance",
+        "officerUnit": "9663"
+    },
+    {
+        "caseNumber": "123478",
+        "name": "Steven King",
+        "photo": "photos/steven_king.jpg",
+        "age": "38",
+        "crime": "Aggressive Behavior",
+        "category": "HISTORY",
+        "otherDetails": "Involved in multiple altercations",
+        "officerUnit": "9652"
+    },
+    {
+        "caseNumber": "123479",
+        "name": "Karen Scott",
+        "photo": "photos/karen_scott.jpg",
+        "age": "45",
+        "crime": "Public Intoxication",
+        "category": "HISTORY",
+        "otherDetails": "Found intoxicated in a public place",
+        "officerUnit": "9641"
+    }
+]
